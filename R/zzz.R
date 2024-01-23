@@ -7,7 +7,7 @@
 #' @importFrom utils tail
 #' @importFrom digest digest
 #' @importFrom withr with_options
-#' @importFrom stats setNames
+#' @importFrom stats setNames ecdf quantile
 "_PACKAGE"
 
 register_mlr3 = function() {

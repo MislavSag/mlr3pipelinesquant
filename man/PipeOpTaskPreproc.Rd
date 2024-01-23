@@ -195,10 +195,15 @@ Other mlr3pipelines backend related:
 \code{\link{mlr_pipeops}}
 
 Other PipeOps: 
+\code{\link{PipeOpDropCorr}},
+\code{\link{PipeOpDropNACol}},
+\code{\link{PipeOpDropNA}},
 \code{\link{PipeOpEnsemble}},
 \code{\link{PipeOpImpute}},
 \code{\link{PipeOpTargetTrafo}},
 \code{\link{PipeOpTaskPreprocSimple}},
+\code{\link{PipeOpUniform}},
+\code{\link{PipeOpWinsorizeSimple}},
 \code{\link{PipeOp}},
 \code{\link{mlr_pipeops_boxcox}},
 \code{\link{mlr_pipeops_branch}},

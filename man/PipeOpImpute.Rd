@@ -129,10 +129,15 @@ from which values are sampled to impute missing values of \code{feature}. \code{
 https://mlr-org.com/pipeops.html
 
 Other PipeOps: 
+\code{\link{PipeOpDropCorr}},
+\code{\link{PipeOpDropNACol}},
+\code{\link{PipeOpDropNA}},
 \code{\link{PipeOpEnsemble}},
 \code{\link{PipeOpTargetTrafo}},
 \code{\link{PipeOpTaskPreprocSimple}},
 \code{\link{PipeOpTaskPreproc}},
+\code{\link{PipeOpUniform}},
+\code{\link{PipeOpWinsorizeSimple}},
 \code{\link{PipeOp}},
 \code{\link{mlr_pipeops_boxcox}},
 \code{\link{mlr_pipeops_branch}},
